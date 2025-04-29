@@ -74,7 +74,7 @@ export default {
   width: 100%;
   padding: 80px 20px;
   box-sizing: border-box;
-  background-image: url('/1.Martex-NuxtJS/public/assets/images/fondo_hero_solo.png');
+  background-image: url('/assets/images/fondo_hero_solo.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

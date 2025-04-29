@@ -75,6 +75,7 @@ export default {
   padding: 100px 20px; /* Mayor padding vertical para aumentar la altura */
   display: flex;
   flex-direction: column;
+  background-image: url('/assets/images/fondo_hero_solo.png');
   align-items: center;
   box-sizing: border-box;
   background-size: cover;
