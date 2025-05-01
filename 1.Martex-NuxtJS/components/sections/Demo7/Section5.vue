@@ -1,5 +1,5 @@
 <template>
-  <section class="features-section">
+  <section id="section5" class="features-section">
     <!-- Título de la sección -->
     <div class="section-header">
       <h2 class="section-title">Características que transforman ventas</h2>

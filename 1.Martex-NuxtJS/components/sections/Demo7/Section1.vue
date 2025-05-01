@@ -6,27 +6,31 @@
         <div class="row d-flex align-items-center">
           <!-- HERO TEXT -->
           <div class="col-md-6">
-            <!-- Title -->
-            <h1 class="s-50 w-700" style="margin-bottom: 13px; color: #2D4F2B;">Tus clientes no esperan. Vortia siempre responde</h1>
-            <!-- Text --> 
-            <h6 class="p-lg">Lenguaje natural. Respuestas precisas. Conversaciones que venden</h6>
-            <!-- Botón Agenda Tu Demo -->
-            <a 
-              class="btn-demo" 
-              :class="{ active: isActive }"
-              @click="isActive = !isActive"
-              href="https://wa.me/15557245821?text=Me%20gustar%C3%ADa%20agendar%20una%20reuni%C3%B3n%20para%20saber%20m%C3%A1s%20sobre%20Vortia" 
-              target="_blank"
-            >
-              AGENDA TU DEMO
-            </a>
+            <div class="hero-content">
+              <!-- Title -->
+              <h1 class="s-50 w-700 title-animated" style="margin-bottom: 13px; color: #2D4F2B;">
+                Tus clientes no esperan. Vortia siempre responde
+              </h1>
+              <!-- Text --> 
+              <h6 class="p-lg subtitle-animated">Lenguaje natural. Respuestas precisas. Conversaciones que venden</h6>
+              <!-- Botón Agenda Tu Demo -->
+              <a 
+                class="btn-demo button-animated" 
+                :class="{ active: isActive }"
+                @click="isActive = !isActive"
+                href="https://wa.me/15557245821?text=Me%20gustar%C3%ADa%20agendar%20una%20reuni%C3%B3n%20para%20saber%20m%C3%A1s%20sobre%20Vortia" 
+                target="_blank"
+              >
+                AGENDA TU DEMO
+              </a>
+            </div>
           </div>
           <!-- END HERO TEXT -->
           
           <!-- HERO IMAGE -->
           <div class="col-md-6">
             <div class="hero-7-img text-center">
-              <img class="img-fluid floating animated" src="/public/assets/images/robot_graficos.png" alt="hero-image" />
+              <img class="img-fluid robot-animated" src="/public/assets/images/robot_graficos.png" alt="hero-image" />
             </div>
           </div>
         </div>
@@ -35,7 +39,7 @@
         <!-- BRANDS CAROUSEL -->
         <div class="row mt-5">
           <div class="col-12">
-            <div class="brands-carousel-container">
+            <div class="brands-carousel-container fade-in-up">
               <ClientOnly>
                 <swiper-container ref="containerRef" :init="false" class="brand-swiper">
                   <!-- Primera imagen -->
@@ -145,6 +149,27 @@ onMounted(() => {
   if (swiper.instance) {
     console.log('Swiper instance initialized:', swiper.instance)
   }
+  
+  // Asegurarse de que las animaciones se ejecuten después de que la página se cargue
+  setTimeout(() => {
+    document.querySelector('.robot-animated').classList.add('active')
+    document.querySelector('.title-animated').classList.add('active')
+    
+    // Agregar delay para el subtítulo y botón
+    setTimeout(() => {
+      document.querySelector('.subtitle-animated').classList.add('active')
+      
+      // Agregar delay para el botón
+      setTimeout(() => {
+        document.querySelector('.button-animated').classList.add('active')
+        
+        // Finalmente animar el carrusel de marcas
+        setTimeout(() => {
+          document.querySelector('.fade-in-up').classList.add('active')
+        }, 300)
+      }, 200)
+    }, 200)
+  }, 300)
 })
 </script>
 
@@ -177,6 +202,23 @@ onMounted(() => {
   z-index: 1;
 }
 
+/* Robot Animation */
+.robot-animated {
+  width: 100%;
+  max-width: 500px;
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.15));
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.robot-animated.active {
+  opacity: 1;
+  transform: translateX(0);
+  animation: float 3s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
 /* Floating effect */
 @keyframes float {
   0% { transform: translateY(0); }
@@ -184,14 +226,55 @@ onMounted(() => {
   100% { transform: translateY(0); }
 }
 
-.floating {
-  width: 100%;
-  max-width: 500px;
-  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.15));
+/* Title Animation */
+.title-animated {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.8s ease-out;
 }
 
-.animated {
-  animation: float 3s ease-in-out infinite;
+.title-animated.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Subtitle Animation */
+.subtitle-animated {
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: all 0.7s ease-out;
+  transition-delay: 0.2s;
+}
+
+.subtitle-animated.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Button Animation */
+.button-animated {
+  opacity: 0;
+  transform: translateY(15px);
+  transition: all 0.6s ease-out;
+  transition-delay: 0.4s;
+}
+
+.button-animated.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Brands Carousel Animation */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+  transition-delay: 0.6s;
+}
+
+.fade-in-up.active {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Botón estilo robot */
@@ -238,6 +321,11 @@ onMounted(() => {
   box-shadow: 0 2px 10px rgba(59, 130, 246, 0.3);
 }
 
+/* Hero content wrapper para las animaciones */
+.hero-content {
+  max-width: 600px;
+}
+
 /* Brands Carousel */
 .brands-carousel-container {
   overflow: hidden;
@@ -279,7 +367,7 @@ swiper-slide {
     padding-bottom: 40px;
   }
   
-  .floating {
+  .robot-animated {
     max-width: 80%;
     margin: 30px auto 0;
   }
@@ -296,6 +384,15 @@ swiper-slide {
   
   .brand-image {
     max-height: 50px;
+  }
+  
+  /* Ajustes para las animaciones en móvil */
+  .robot-animated {
+    transform: translateY(50px);
+  }
+  
+  .robot-animated.active {
+    transform: translateY(0);
   }
 }
 </style>
