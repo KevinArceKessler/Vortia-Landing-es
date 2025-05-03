@@ -88,21 +88,25 @@ export default {
 .section-header {
   text-align: center;
   margin-bottom: 50px;
-  max-width: 800px;
+  max-width: 900px; /* Aumentado el ancho máximo */
 }
 
 .section-title {
-  font-size: 40px;
+  font-size: 47px; /* Tamaño aumentado desde 40px */
   font-weight: 900;
-  color: #0f0f0f;
+  color: #a9bd4f; /* Cambiado de #0f0f0f a un verde que combina con los cards */
   margin-bottom: 15px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra sutil para mejorar legibilidad */
 }
 
 .section-subtitle {
-  font-size: 20px;
+  font-size: 23px;
   color: #333;
-  max-width: 700px;
+  max-width: 900px; /* Aumentado para que quepa en una línea */
   margin: 0 auto;
+  white-space: nowrap; /* Fuerza a que esté en una sola línea */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Por si el texto es muy largo en móviles */
 }
 
 /* Grid responsivo */
@@ -152,7 +156,7 @@ export default {
 
 /* Frente */
 .flip-card-front {
-  background-color: #394008; /* Verde medio */
+  background-color: #B8B68F; /* Verde medio */
   color: #fff;
 }
 
@@ -169,19 +173,20 @@ export default {
   color: #e0e0e0;
   transform: rotateY(180deg);
   flex-direction: column;
-  overflow-y: auto;
+  font-size: 0.95rem; /* Reducimos un poco */
+  line-height: 1.4;   /* Más compacto */
+  overflow-y: hidden; /* Oculta el scroll */
 }
 
 .flip-card-back p {
-  margin-bottom: 1rem;
-  line-height: 1.5;
-  font-size: 1.05rem;
+  font-size: 0.95rem; /* Menor tamaño general */
+  margin-bottom: 0.8rem;
 }
 
 .flip-card-back p:first-child {
   font-weight: 600;
-  font-size: 1.2rem;
-  color: #a9bd4f; /* Verde claro para destacar */
+  font-size: 1.05rem; /* Reducido desde 1.2rem */
+  color: #a9bd4f;
 }
 
 .flip-card-back p:last-child {
@@ -193,15 +198,20 @@ export default {
   .features-container {
     grid-template-columns: repeat(2, 1fr); /* 2 columnas en tablets */
   }
+  
+  .section-subtitle {
+    white-space: normal; /* Permitir que el subtítulo se ajuste en tablets */
+  }
 }
 
 @media (max-width: 768px) {
   .section-title {
-    font-size: 2rem;
+    font-size: 2.5rem; /* Aumentado desde 2rem para mantener la proporción */
   }
   
   .section-subtitle {
     font-size: 1.1rem;
+    white-space: normal; /* Permitir wrap en móviles */
   }
 
   .features-container {
