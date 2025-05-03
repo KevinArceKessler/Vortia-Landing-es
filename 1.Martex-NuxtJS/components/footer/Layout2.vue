@@ -44,6 +44,9 @@
                             <li>
                                 <p><NuxtLink to="/terminoscondiciones">Terms and Conditions</NuxtLink></p>
                             </li>
+                            <li>
+                                <p><NuxtLink to="/legales">Legal Notice</NuxtLink></p>
+                            </li>
                         </ul>
                     </div>
                 </div>

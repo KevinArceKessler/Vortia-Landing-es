@@ -119,19 +119,19 @@ export default {
 
 /* Fondos específicos para cada card */
 .card-inmobiliaria {
-  background-color: #c8e070 !important;
+  background-color: #B8B68F !important;
 }
 
 .card-concesionaria {
-  background-color: rgba(110, 77, 101, 0.08);
+  background-color: #B8B68F !important;;
 }
 
 .card-viajes {
-  background-color: rgba(74, 117, 77, 0.08);
+  background-color: #B8B68F !important;;
 }
 
 .card-postventa {
-  background-color: rgba(121, 102, 62, 0.08);
+  background-color: #B8B68F !important;;
 }
 
 /* Título de card */
