@@ -17,16 +17,16 @@
                         <!-- Links -->
                         <ul class="foo-links clearfix">
                             <li>
-                                <p><a href="#" @click.prevent="scrollToSection('section5')">Soluciones</a></p>
+                                <p><a href="#" @click.prevent="scrollToSection('section5')">Solutions</a></p>
                             </li>
                             <li>
-                                <p><NuxtLink to="/sobrenosotros">Sobre Nosotros</NuxtLink></p>
+                                <p><NuxtLink to="/sobrenosotros">About Us</NuxtLink></p>
                             </li>
                             <li>
                                 <p><NuxtLink to="/blog">Blog</NuxtLink></p>
                             </li>
                             <li>
-                                <p><a href="#" @click.prevent="scrollToSection('section16')">Contacto</a></p>
+                                <p><a href="#" @click.prevent="scrollToSection('section16')">Contact</a></p>
                             </li>
                         </ul>
                     </div>
@@ -35,14 +35,14 @@
                 <div class="col-sm-6 col-md-4 col-xl-4">
                     <div class="footer-links fl-3">
                         <!-- Title -->
-                        <h6 class="s-17 w-700">Legales</h6>
+                        <h6 class="s-17 w-700">Legal</h6>
                         <!-- Links -->
                         <ul class="foo-links clearfix">
                             <li>
-                                <p><NuxtLink to="/privacidaddatos">Privacidad de Datos</NuxtLink></p>
+                                <p><NuxtLink to="/privacidaddatos">Privacy policy</NuxtLink></p>
                             </li>
                             <li>
-                                <p><NuxtLink to="/terminoscondiciones">Términos y condiciones</NuxtLink></p>
+                                <p><NuxtLink to="/terminoscondiciones">Terms and Conditions</NuxtLink></p>
                             </li>
                         </ul>
                     </div>

@@ -18,19 +18,19 @@
         <div class="close-menu" @click="toggleMenu">×</div>
         
         <!-- Sección Soluciones (redirecciona a section5) -->
-        <a href="#" @click.prevent="scrollToSection('section5'); closeMenu()">Soluciones</a>
+        <a href="#" @click.prevent="scrollToSection('section5'); closeMenu()">Solutions</a>
         
         <!-- Sección Sobre nosotros (redirecciona a página) -->
-        <NuxtLink to="/sobrenosotros" @click="closeMenu()">Sobre nosotros</NuxtLink>
+        <NuxtLink to="/sobrenosotros" @click="closeMenu()">About Us</NuxtLink>
         
         <!-- Sección Blog (redirecciona a página) -->
         <NuxtLink to="/blog" @click="closeMenu()">Blog</NuxtLink>
         
         <!-- Sección Contacto (redirecciona a section16) -->
-        <a href="#" @click.prevent="scrollToSection('section16'); closeMenu()">Contacto</a>
+        <a href="#" @click.prevent="scrollToSection('section16'); closeMenu()">Contact</a>
         
         <!-- Iniciar sesión (redirecciona a página externa) -->
-        <a href="https://vortia-admin.com/home" target="_blank" @click="closeMenu()">Iniciar sesión</a>
+        <a href="https://vortia-admin.com/home" target="_blank" @click="closeMenu()">Login</a>
       </nav>
     </div>
   </header>
