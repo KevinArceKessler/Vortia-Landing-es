@@ -6,9 +6,9 @@
                 <div class="col-md-10 col-lg-9">
                     <div class="section-title mb-70">
                         <!-- Title -->
-                        <h2 class="s-50 w-700">Todo listo en tan solo 4 semanas</h2>
+                        <h2 class="s-50 w-700">Everything Ready in Just 4 Weeks</h2>
                         <!-- Text -->
-                        <h6 class="s-21">Proceso de onboarding</h6>
+                        <h6 class="s-21">Onboarding Process</h6>
                     </div>
                 </div>
             </div>

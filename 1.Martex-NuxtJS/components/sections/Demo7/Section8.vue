@@ -2,9 +2,9 @@
   <section id="ai-agent" class="ai-agent-section">
     <div class="hero-background"></div>
     <div class="content-wrapper">
-      <p class="subtitle">Automatiza. Escala. Vende sin límites</p>
+      <p class="subtitle">Automate. Scale. Sell without limits.</p>
       <h6 class="main-title">
-        SUMÁ IA A LOS PROCESOS DE TU EMPRESA.
+        INTEGRATE AI INTO YOUR BUSINESS PROCESS.
       </h6>
     </div>
   </section>
@@ -63,7 +63,7 @@ export default {
 
 /* Título principal */
 .main-title {
-  font-size: clamp(3rem, 10vw, 8.5rem);
+  font-size: 140px;
   font-weight: 900;
   color: #0f0f0f;
   line-height: 1.1;

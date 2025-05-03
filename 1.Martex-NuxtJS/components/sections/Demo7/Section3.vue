@@ -2,60 +2,56 @@
   <section class="agents-section">
     <!-- Título de sección -->
     <h4 class="section-title">
-      Agentes de IA que responden como tus mejores colaboradores
+      AI agents that respond like your best team members
     </h4>
 
     <!-- Grid 2x2 fijo -->
     <div class="agents-container">
       <!-- Card 1 -->
       <div class="agent-card card-inmobiliaria">
-        <h5 class="card-title">INMOBILIARIA</h5>
+        <h5 class="card-title">REAL ESTATE</h5>
         <p class="card-desc">
-          Interactúa con un asistente que responde como si fuera parte de tu equipo.<br/>
-          Consultas reales, respuestas inteligentes. Pruébalo en acción.
+          Engage with an assistant that feels like part of your team. Real inquiries, intelligent answers. Try it in action.
         </p>
         <div class="card-buttons">
           <span class="flaticon-whatsapp btn-whatsapp"></span>
-          <button class="btn-trial">Proba gratis ahora!</button>
+          <button class="btn-trial">Try it for free now!</button>
         </div>
       </div>
 
       <!-- Card 2 -->
       <div class="agent-card card-concesionaria">
-        <h5 class="card-title">CONCESIONARIA</h5>
+        <h5 class="card-title">CAR DEALERSHIP</h5>
         <p class="card-desc">
-          Desde modelos hasta planes de financiación.<br/>
-          Experimenta un asistente que acelera tus ventas.
+          From models to financing plans. Experience an assistant that accelerates your sales.
         </p>
         <div class="card-buttons">
           <span class="flaticon-whatsapp btn-whatsapp"></span>
-          <button class="btn-trial">Proba gratis ahora!</button>
+          <button class="btn-trial">Try it for free now!</button>
         </div>
       </div>
 
       <!-- Card 3 -->
       <div class="agent-card card-viajes">
-        <h5 class="card-title">AGENCIA DE VIAJES</h5>
+        <h5 class="card-title">TRAVEL AGENCY</h5>
         <p class="card-desc">
-          Consulta destinos, paquetes y fechas.<br/>
-          Un asistente que guía la experiencia como un experto en viajes.
+          Inquire about destinations, packages, and dates. An assistant that guides the experience like a travel expert.
         </p>
         <div class="card-buttons">
           <span class="flaticon-whatsapp btn-whatsapp"></span>
-          <button class="btn-trial">Proba gratis ahora!</button>
+          <button class="btn-trial">Try it for free now!</button>
         </div>
       </div>
 
       <!-- Card 4 -->
       <div class="agent-card card-postventa">
-        <h5 class="card-title">SERVICIO POSTVENTA</h5>
+        <h5 class="card-title">AFTER-SALES SERVICE</h5>
         <p class="card-desc">
-          Reclamos, consultas técnicas, manuales de usuario.<br/>
-          Descubre cómo tu cliente recibe atención inmediata, sin esfuerzo.
+          Claims, technical inquiries, user manuals. Discover how your customer receives immediate attention, effortlessly.
         </p>
         <div class="card-buttons">
           <span class="flaticon-whatsapp btn-whatsapp"></span>
-          <button class="btn-trial">Proba gratis ahora!</button>
+          <button class="btn-trial">Try it for free now!</button>
         </div>
       </div>
     </div>

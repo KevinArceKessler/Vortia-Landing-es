@@ -2,9 +2,9 @@
     <section id="ai-agent" class="ai-agent-section">
         <div class="hero-background"></div>
         <div class="content-wrapper">
-            <h6 class="subtitle">Tú inviertes. Nosotros respondemos. Tú vendes</h6>
+            <h6 class="subtitle">You Invest. We Respond. You Sell.</h6>
             <h2 class="main-title">
-                INTERFAZ DE USUARIO SIMPLE. MONITOREO EN TIEMPO REAL
+              SIMPLE USER INTERFACE. REAL-TIME MONITORING
             </h2>
         </div>
     </section>
