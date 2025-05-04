@@ -82,7 +82,7 @@ export default {
   font-weight: 600;
   text-align: center;
   margin-bottom: 20px;
-  color: #333;
+  color: #0f0f0f;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -149,7 +149,7 @@ export default {
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 25px;
-  color: #333;
+  color: #0f0f0f;
 }
 
 /* Botones */

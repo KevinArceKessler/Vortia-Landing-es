@@ -12,7 +12,7 @@
                 Your customers don't wait. Vortia always responds
               </h1>
               <!-- Text --> 
-              <h6 class="p-lg subtitle-animated">Natural language. Accurate Answers. Sales That Scale.n</h6>
+              <h6 class="p-lg subtitle-animated" style="color: #0f0f0f">Natural language. Accurate Answers. Sales That Scale.n</h6>
               <!-- Botón Agenda Tu Demo -->
               <a 
                 class="btn-demo button-animated" 

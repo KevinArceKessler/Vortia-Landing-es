@@ -104,7 +104,7 @@ export default {
 
 .section-subtitle {
   font-size: 28px;
-  color: #333;
+  color: #0f0f0f;
   max-width: 900px; /* Aumentado para que quepa en una línea */
   margin: 0 auto;
   white-space: nowrap; /* Fuerza a que esté en una sola línea */
