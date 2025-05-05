@@ -9,6 +9,7 @@
         <SectionsDemo7Section16 />
         <SectionsDemo7Section14 />
         <SectionsDemo7Section17 />
+        <SectionsDemo7Section18 />
         <BackToTop />
     </div>
 </template>
