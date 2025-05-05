@@ -27,7 +27,7 @@
         <NuxtLink to="/blog" @click="closeMenu()">Blog</NuxtLink>
         
         <!-- Sección Contacto (redirecciona a section16) -->
-        <a href="#" @click.prevent="scrollToSection('section16'); closeMenu()">Contact</a>
+        <a href="#" @click.prevent="scrollToSection('section18'); closeMenu()">Contact</a>
         
         <!-- Iniciar sesión (redirecciona a página externa) -->
         <a href="https://vortia-admin.com/home" target="_blank" @click="closeMenu()">Login</a>
