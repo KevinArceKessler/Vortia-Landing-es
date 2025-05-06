@@ -70,7 +70,7 @@ export default {
   width: 100%;
   padding: 80px 20px;
   box-sizing: border-box;
-  background-image: url('/assets/images/fondo_hero_solo.png');
+  background-image: url('/public/assets/images/imagen-section3.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -119,19 +119,19 @@ export default {
 
 /* Fondos específicos para cada card */
 .card-inmobiliaria {
-  background-color: #B8B68F !important;
+  background-color: #727376 !important;
 }
 
 .card-concesionaria {
-  background-color: #B8B68F !important;;
+  background-color: #727376 !important;;
 }
 
 .card-viajes {
-  background-color: #B8B68F !important;;
+  background-color: #727376 !important;;
 }
 
 .card-postventa {
-  background-color: #B8B68F !important;;
+  background-color: #727376 !important;;
 }
 
 /* Título de card */
@@ -139,7 +139,7 @@ export default {
   font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 15px;
-  color:#000000;
+  color:#f0f0f0;
 }
 
 /* Descripción */
@@ -149,7 +149,7 @@ export default {
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 25px;
-  color: #0f0f0f;
+  color: #f0f0f0;
 }
 
 /* Botones */
@@ -166,7 +166,7 @@ export default {
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  background-color: #25D366;
+  background-color: #B7F38A;
   border: none;
   display: flex;
   align-items: center;
@@ -185,7 +185,7 @@ export default {
 /* Probar gratis con bordes más redondeados */
 .btn-trial {
   padding: 10px 20px;
-  background-color: #3fa550; /* Verde más opaco */
+  background-color: #B7F38A; /* Verde más opaco */
   border: none;
   border-radius: 30px; /* Más redondeado */
   font-size: 1rem;

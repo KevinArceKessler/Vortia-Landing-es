@@ -8,7 +8,7 @@
           <div class="col-md-6">
             <div class="hero-content">
               <!-- Title -->
-              <h1 class="s-50 w-700 title-animated" style="margin-bottom: 13px; color: #2D4F2B;">
+              <h1 class="s-50 w-700 title-animated" style="margin-bottom: 13px; color: #000000;">
                 Your customers don't wait. Vortia always responds
               </h1>
               <!-- Text --> 
@@ -189,7 +189,7 @@ onMounted(() => {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/public/assets/images/fondo_hero_solo.png');
+  background-image: url('/public/assets/images/imagen-section1.png');
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -281,13 +281,12 @@ onMounted(() => {
 .btn-demo {
   display: inline-block;
   padding: 12px 28px;
-  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
-  color: white;
+  background: #B7F38A;
+  color: #000000;
   font-weight: 600;
   font-size: 1rem;
   text-decoration: none;
   border-radius: 30px;
-  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.35);
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -302,23 +301,14 @@ onMounted(() => {
   left: 0;
   width: 0%;
   height: 100%;
-  background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+  background: #94E05A;
   transition: all 0.3s ease;
   z-index: -1;
 }
 
-.btn-demo:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(59, 130, 246, 0.4);
-}
 
 .btn-demo:hover:before {
   width: 100%;
-}
-
-.btn-demo.active {
-  transform: scale(0.98);
-  box-shadow: 0 2px 10px rgba(59, 130, 246, 0.3);
 }
 
 /* Hero content wrapper para las animaciones */

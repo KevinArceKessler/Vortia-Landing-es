@@ -128,7 +128,7 @@ export default {
 <style scoped>
 /* Navbar base */
 .custom-navbar {
-  background-color: rgba(179, 184, 184);
+  background-color: #CECECE;
   padding: 25px 30px;
   position: sticky;
   top: 0;

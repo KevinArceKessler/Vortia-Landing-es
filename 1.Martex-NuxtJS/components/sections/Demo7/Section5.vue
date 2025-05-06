@@ -78,7 +78,7 @@ export default {
   padding: 100px 20px; /* Mayor padding vertical para aumentar la altura */
   display: flex;
   flex-direction: column;
-  background-image: url('/assets/images/fondo_hero_solo.png');
+  background-image: url('/public/assets/images/imagen-section1.png');
   align-items: center;
   box-sizing: border-box;
   background-size: cover;
@@ -97,7 +97,7 @@ export default {
 .section-title {
   font-size: 65px; /* Tamaño aumentado desde 40px */
   font-weight: 900;
-  color: #a9bd4f; /* Cambiado de #0f0f0f a un verde que combina con los cards */
+  color: #000000; /* Cambiado de #0f0f0f a un verde que combina con los cards */
   margin-bottom: 15px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra sutil para mejorar legibilidad */
 }
@@ -159,8 +159,8 @@ export default {
 
 /* Frente */
 .flip-card-front {
-  background-color: #B8B68F; /* Verde medio */
-  color: #fff;
+  background-color: #94E05A; /* Verde medio */
+  color: #000000;
 }
 
 .flip-card-front h3 {
@@ -172,7 +172,7 @@ export default {
 
 /* Reverso */
 .flip-card-back {
-  background-color: #222605; /* Verde oscuro más profundo */
+  background-color: #4e6e34; /* Verde oscuro más profundo */
   color: #e0e0e0;
   transform: rotateY(180deg);
   flex-direction: column;
@@ -189,7 +189,7 @@ export default {
 .flip-card-back p:first-child {
   font-weight: 600;
   font-size: 1.05rem; /* Reducido desde 1.2rem */
-  color: #a9bd4f;
+  color: #89c240;
 }
 
 .flip-card-back p:last-child {

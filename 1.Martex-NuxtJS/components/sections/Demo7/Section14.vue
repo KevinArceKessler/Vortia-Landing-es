@@ -23,3 +23,5 @@
         <!-- End container -->
     </section>
 </template>
+
+<!-- aca va la 2 background-->

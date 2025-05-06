@@ -22,8 +22,8 @@ export default {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vhn;
-    background-image: url('/public/assets/images/fondo_hero_solo.png');
+    height: 100vh;
+    background-image: url('/public/assets/images/imagen-section3.png');
     background-size: cover;
     background-position: center;
     z-index: -1;
