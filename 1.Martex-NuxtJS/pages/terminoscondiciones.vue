@@ -327,9 +327,7 @@
                 
                 <!-- Aquí podrías seguir con todas las secciones restantes -->
 
-                <div class="text-center mt-5">
-                  <p>Última actualización: Mayo 2025</p>
-                </div>
+                
               </div>
             </div>
           </div>
