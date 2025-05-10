@@ -6,6 +6,14 @@
         <div class="row d-flex align-items-center">
           <!-- HERO TEXT -->
           <div class="col-md-6">
+            <div class="hero-7-img text-center">
+              <img class="img-fluid robot-animated" src="/public/assets/images/robot_graficos.png" alt="hero-image" />
+            </div>
+          </div>
+          <!-- END HERO TEXT -->
+          
+          <!-- HERO IMAGE -->
+           <div class="col-md-6">
             <div class="hero-content">
               <!-- Title -->
               <h1 class="s-50 w-700 title-animated" style="margin-bottom: 13px; color: #000000;">
@@ -25,14 +33,7 @@
               </a>
             </div>
           </div>
-          <!-- END HERO TEXT -->
           
-          <!-- HERO IMAGE -->
-          <div class="col-md-6">
-            <div class="hero-7-img text-center">
-              <img class="img-fluid robot-animated" src="/public/assets/images/robot_graficos.png" alt="hero-image" />
-            </div>
-          </div>
         </div>
         <!-- End row -->
         

@@ -4,6 +4,25 @@
     <div class="container">
       <div class="row d-flex align-items-center justify-content-center">
         <!-- VIDEO SECTION -->
+        <div class="col-md-6">
+          <div class="text-block">
+            <!-- Title -->
+            <h2 class="s-46 w-700 text-title">Real conversations. Instant answers. Exceptional results.</h2>
+            
+            <a 
+              class="btn-demo" 
+              :class="{ active: isActive }"
+              @click="isActive = !isActive"
+              href="https://wa.me/15557245821?text=Me%20gustar%C3%ADa%20agendar%20una%20reuni%C3%B3n%20para%20saber%20m%C3%A1s%20sobre%20Vortia" 
+              target="_blank"
+            >
+            SCHEDULE YOUR DEMO
+            </a>
+          </div>
+        </div>
+  
+        <!-- TEXT SECTION -->
+        
         <div class="col-md-6 d-flex justify-content-center">
           <div class="video-wrapper" ref="videoWrapper">
             <div class="video-container position-relative">
@@ -35,24 +54,6 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-  
-        <!-- TEXT SECTION -->
-        <div class="col-md-6">
-          <div class="text-block">
-            <!-- Title -->
-            <h2 class="s-46 w-700 text-title">Real conversations. Instant answers. Exceptional results.</h2>
-            
-            <a 
-              class="btn-demo" 
-              :class="{ active: isActive }"
-              @click="isActive = !isActive"
-              href="https://wa.me/15557245821?text=Me%20gustar%C3%ADa%20agendar%20una%20reuni%C3%B3n%20para%20saber%20m%C3%A1s%20sobre%20Vortia" 
-              target="_blank"
-            >
-            SCHEDULE YOUR DEMO
-            </a>
           </div>
         </div>
       </div>
