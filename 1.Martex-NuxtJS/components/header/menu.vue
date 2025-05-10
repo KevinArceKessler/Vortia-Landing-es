@@ -129,7 +129,7 @@ export default {
 /* Navbar base */
 .custom-navbar {
   background-color: #CECECE;
-  padding: 25px 30px;
+  padding: 18px 25px;
   position: sticky;
   top: 0;
   z-index: 100;
