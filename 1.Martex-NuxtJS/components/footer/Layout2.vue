@@ -163,28 +163,28 @@ export default {
 /* Estilos para dispositivos móviles medianos (576px - 767px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     .pt-100 {
-        padding-top: 70px !important;
+        padding-top: 25px !important;
     }
 }
 
 /* Estilos para tablets (768px - 991px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .pt-100 {
-        padding-top: 80px !important;
+        padding-top: 35px !important;
     }
 }
 
 /* Estilos para desktops pequeños (992px - 1199px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .pt-100 {
-        padding-top: 90px !important;
+        padding-top: 45px !important;
     }
 }
 
 /* Estilos para desktops grandes (1200px en adelante) */
 @media (min-width: 1200px) {
     .pt-100 {
-        padding-top: 100px !important;
+        padding-top: 55px !important;
     }
 }
 
