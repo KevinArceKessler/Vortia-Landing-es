@@ -1,9 +1,9 @@
 <template>
-  <section class="features-section">
+  <section id="section5" class="features-section">
     <!-- Título de la sección -->
     <div class="section-header">
-      <h2 class="section-title">Características que transforman ventas</h2>
-      <p class="section-subtitle">Descubre cómo Vortia revoluciona la atención al cliente con inteligencia artificial</p>
+      <h2 class="section-title">Features that drive sales</h2>
+      <p class="section-subtitle">Discover how vortia revolutionizes customer engagement with AI</p>
     </div>
     
     <div class="features-container">
@@ -11,11 +11,12 @@
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <h3>Atención 24/7 en todos tus canales</h3>
+            <h3>24/7 Support across all your channels</h3>
           </div>
           <div class="flip-card-back">
-            <p>Nunca más una consulta sin respuesta.</p>
-            <p>Tu asistente responde al instante, todos los días, a toda hora. En WhatsApp, web o redes... donde esté tu cliente, ahí está Vortia.</p>
+            <p>Never miss a query again.</p>
+            <p>Your assistant responds instantly, every day, at any time. Whether it's WhatsApp, your website, or social
+              media—wherever your customer is, Vortia is there.</p>
           </div>
         </div>
       </div>
@@ -24,11 +25,12 @@
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <h3>Inteligencia conversacional avanzada</h3>
+            <h3>Advanced conversational intelligence</h3>
           </div>
           <div class="flip-card-back">
-            <p>Habla como una persona. Vende como un experto.</p>
-            <p>Comprende intenciones y responde con naturalidad. Guía al cliente con precisión hacia el cierre. Siempre claro, siempre orientado a vender.</p>
+            <p>Talks like a human. Sells like an expert.</p>
+            <p>Understands intentions and responds naturally. Guides customer precisely towards closing. Always clear,
+              always sales-oriented.</p>
           </div>
         </div>
       </div>
@@ -37,11 +39,12 @@
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <h3>Monitoreo en tiempo real</h3>
+            <h3>Live performance monitoring</h3>
           </div>
           <div class="flip-card-back">
-            <p>Supervisa cada conversación al instante.</p>
-            <p>Accede en vivo a lo que ocurre con tu asistente. Detecta oportunidades, ajusta mensajes, toma el control. Mejora tu estrategia con datos accionables al momento.</p>
+            <p>Supervise Every Conversation Instantly.</p>
+            <p>Access live what's happening with your assistant. Detect opportunities, adjust messages, take control.
+              Supervise every conversation instantly.</p>
           </div>
         </div>
       </div>
@@ -50,11 +53,11 @@
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <h3>Aumenta la tasa de conversión</h3>
+            <h3>Boost your conversion rate</h3>
           </div>
           <div class="flip-card-back">
-            <p>Diseñado para vender en cada interacción.</p>
-            <p>Hasta un 30% más de cierres, sin intervención humana. Resultados medibles. Crecimiento real.</p>
+            <p>Designed to sell in every interaction.</p>
+            <p>Up to 30% more closings, without human intervention. Measurable results. Real growth.</p>
           </div>
         </div>
       </div>
@@ -75,7 +78,7 @@ export default {
   padding: 100px 20px; /* Mayor padding vertical para aumentar la altura */
   display: flex;
   flex-direction: column;
-  background-image: url('/assets/images/fondo_hero_solo.png');
+  background-image: url('/public/assets/images/imagen-section1.png');
   align-items: center;
   box-sizing: border-box;
   background-size: cover;
@@ -88,21 +91,25 @@ export default {
 .section-header {
   text-align: center;
   margin-bottom: 50px;
-  max-width: 800px;
+  max-width: 900px; /* Aumentado el ancho máximo */
 }
 
 .section-title {
-  font-size: 40px;
+  font-size: 65px; /* Tamaño aumentado desde 40px */
   font-weight: 900;
-  color: #0f0f0f;
+  color: #000000; /* Cambiado de #0f0f0f a un verde que combina con los cards */
   margin-bottom: 15px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra sutil para mejorar legibilidad */
 }
 
 .section-subtitle {
-  font-size: 20px;
-  color: #333;
-  max-width: 700px;
+  font-size: 28px;
+  color: #0f0f0f;
+  max-width: 900px; /* Aumentado para que quepa en una línea */
   margin: 0 auto;
+  white-space: nowrap; /* Fuerza a que esté en una sola línea */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Por si el texto es muy largo en móviles */
 }
 
 /* Grid responsivo */
@@ -152,8 +159,8 @@ export default {
 
 /* Frente */
 .flip-card-front {
-  background-color: #394008; /* Verde medio */
-  color: #fff;
+  background-color: #94E05A; /* Verde medio */
+  color: #000000;
 }
 
 .flip-card-front h3 {
@@ -165,23 +172,24 @@ export default {
 
 /* Reverso */
 .flip-card-back {
-  background-color: #222605; /* Verde oscuro más profundo */
+  background-color: #4e6e34; /* Verde oscuro más profundo */
   color: #e0e0e0;
   transform: rotateY(180deg);
   flex-direction: column;
-  overflow-y: auto;
+  font-size: 0.95rem; /* Reducimos un poco */
+  line-height: 1.4;   /* Más compacto */
+  overflow-y: hidden; /* Oculta el scroll */
 }
 
 .flip-card-back p {
-  margin-bottom: 1rem;
-  line-height: 1.5;
-  font-size: 1.05rem;
+  font-size: 0.95rem; /* Menor tamaño general */
+  margin-bottom: 0.8rem;
 }
 
 .flip-card-back p:first-child {
   font-weight: 600;
-  font-size: 1.2rem;
-  color: #a9bd4f; /* Verde claro para destacar */
+  font-size: 1.05rem; /* Reducido desde 1.2rem */
+  color: #89c240;
 }
 
 .flip-card-back p:last-child {
@@ -193,15 +201,20 @@ export default {
   .features-container {
     grid-template-columns: repeat(2, 1fr); /* 2 columnas en tablets */
   }
+  
+  .section-subtitle {
+    white-space: normal; /* Permitir que el subtítulo se ajuste en tablets */
+  }
 }
 
 @media (max-width: 768px) {
   .section-title {
-    font-size: 2rem;
+    font-size: 2.5rem; /* Aumentado desde 2rem para mantener la proporción */
   }
   
   .section-subtitle {
     font-size: 1.1rem;
+    white-space: normal; /* Permitir wrap en móviles */
   }
 
   .features-container {

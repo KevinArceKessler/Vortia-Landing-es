@@ -2,11 +2,14 @@
     <section id="ai-agent" class="ai-agent-section">
         <div class="hero-background"></div>
         <div class="content-wrapper">
+            <h6 class="subtitle">
+                Ready to See How Your Business Responds with AI?
+            </h6>
             <h2 class="main-title">
-                ¿Listo para ver cómo responde tu negocio con IA?
+                EFFORTLESS INTERFACE. COMPLETE CONTROL, LIVE
             </h2>
             <a href="https://wa.me/15557245821?text=Me%20gustar%C3%ADa%20agendar%20una%20reuni%C3%B3n%20para%20saber%20m%C3%A1s%20sobre%20Vortia" class="btn-demo" target="_blank">
-                AGENDA TU DEMO
+                SCHEDULE YOUR DEMO
             </a>
         </div>
     </section>
@@ -25,6 +28,7 @@ export default {
     left: 0;
     width: 100vw;
     height: 100vh;
+    background-image: url('/public/assets/images/imagen-section1.png');
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -62,6 +66,14 @@ export default {
     color: #0f0f0f;
     width: 100%;
     margin: 0;
+}
+
+.subtitle {
+  color: #0f0f0f;
+  font-size: 2rem !important;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
 }
 
 /* Media queries para diferentes tamaños de pantalla */

@@ -2,9 +2,9 @@
     <section id="ai-agent" class="ai-agent-section">
         <div class="hero-background"></div>
         <div class="content-wrapper">
-            <h6 class="subtitle">Tú inviertes. Nosotros respondemos. Tú vendes</h6>
+            <h6 class="subtitle">You Invest. We Respond. You Sell.</h6>
             <h2 class="main-title">
-                INTERFAZ DE USUARIO SIMPLE. MONITOREO EN TIEMPO REAL
+              SIMPLE USER INTERFACE. REAL-TIME MONITORING
             </h2>
         </div>
     </section>
@@ -22,8 +22,8 @@ export default {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vhn;
-    background-image: url('/public/assets/images/fondo_hero_solo.png');
+    height: 100vh;
+    background-image: url('/public/assets/images/imagen-section3.png');
     background-size: cover;
     background-position: center;
     z-index: -1;

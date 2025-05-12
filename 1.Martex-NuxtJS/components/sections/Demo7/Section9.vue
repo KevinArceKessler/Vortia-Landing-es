@@ -4,6 +4,25 @@
     <div class="container">
       <div class="row d-flex align-items-center justify-content-center">
         <!-- VIDEO SECTION -->
+        <div class="col-md-6">
+          <div class="text-block">
+            <!-- Title -->
+            <h2 class="s-46 w-700 text-title">Real conversations. Instant answers. Exceptional results.</h2>
+            
+            <a 
+              class="btn-demo" 
+              :class="{ active: isActive }"
+              @click="isActive = !isActive"
+              href="https://wa.me/15557245821?text=Me%20gustar%C3%ADa%20agendar%20una%20reuni%C3%B3n%20para%20saber%20m%C3%A1s%20sobre%20Vortia" 
+              target="_blank"
+            >
+            SCHEDULE YOUR DEMO
+            </a>
+          </div>
+        </div>
+  
+        <!-- TEXT SECTION -->
+        
         <div class="col-md-6 d-flex justify-content-center">
           <div class="video-wrapper" ref="videoWrapper">
             <div class="video-container position-relative">
@@ -35,24 +54,6 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-  
-        <!-- TEXT SECTION -->
-        <div class="col-md-6">
-          <div class="text-block">
-            <!-- Title -->
-            <h2 class="s-46 w-700 text-title">Conversaciones reales. Respuestas instantáneas. Resultados extraordinarios.</h2>
-            
-            <a 
-              class="btn-demo" 
-              :class="{ active: isActive }"
-              @click="isActive = !isActive"
-              href="https://wa.me/15557245821?text=Me%20gustar%C3%ADa%20agendar%20una%20reuni%C3%B3n%20para%20saber%20m%C3%A1s%20sobre%20Vortia" 
-              target="_blank"
-            >
-              AGENDA TU DEMO
-            </a>
           </div>
         </div>
       </div>
@@ -159,7 +160,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/public/assets/images/fondo_hero_solo.png');
+  background-image: url('/public/assets/images/imagen-section2.png');
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -258,7 +259,7 @@ export default {
   line-height: 1.3;
   font-size: 3.3rem;
   margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, #2D4F2B 0%, #2D4F2B 100%);
+  background: #000000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -268,13 +269,12 @@ export default {
 .btn-demo {
   display: inline-block;
   padding: 12px 28px;
-  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
-  color: white;
+  background: #B7F38A;
+  color: #000000;
   font-weight: 300 !important;
   font-size: 1rem;
   text-decoration: none;
   border-radius: 30px;
-  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.35);
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -289,23 +289,14 @@ export default {
   left: 0;
   width: 0%;
   height: 100%;
-  background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+  background: #94E05A;
   transition: all 0.3s ease;
   z-index: -1;
 }
 
-.btn-demo:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(59, 130, 246, 0.4);
-}
 
 .btn-demo:hover:before {
   width: 100%;
-}
-
-.btn-demo.active {
-  transform: scale(0.98);
-  box-shadow: 0 2px 10px rgba(59, 130, 246, 0.3);
 }
 
 /* Responsive */

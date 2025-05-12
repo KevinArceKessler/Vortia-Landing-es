@@ -16,8 +16,7 @@ html {
 }
 body {
     font-family: 'Satoshi', sans-serif;
-    color: #333 !important;
-    line-height: 1.6666;
+    color: #000000 !important;
     // font-weight: 400;
     background-color: #dfdfdf;
 }
@@ -323,7 +322,7 @@ section,
     padding-top: 90px;
 }
 .pt-100 {
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 80px;
 }
 .pb-30 {
@@ -8548,7 +8547,7 @@ span.release-date span {
   =========================================================================== */
 .footer {
     padding-bottom: 50px;
-    background-color: rgba(179, 184, 184, 0.692);
+    background-color: #CECECE;
 }
 
 #footer-10 .footer-info {

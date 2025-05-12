@@ -2,60 +2,56 @@
   <section class="agents-section">
     <!-- Título de sección -->
     <h4 class="section-title">
-      Agentes de IA que responden como tus mejores colaboradores
+      AI agents that respond like your best team members
     </h4>
 
     <!-- Grid 2x2 fijo -->
     <div class="agents-container">
       <!-- Card 1 -->
       <div class="agent-card card-inmobiliaria">
-        <h5 class="card-title">INMOBILIARIA</h5>
+        <h5 class="card-title">REAL ESTATE</h5>
         <p class="card-desc">
-          Interactúa con un asistente que responde como si fuera parte de tu equipo.<br/>
-          Consultas reales, respuestas inteligentes. Pruébalo en acción.
+          Engage with an assistant that feels like part of your team. Real inquiries, intelligent answers. Try it in action.
         </p>
         <div class="card-buttons">
           <span class="flaticon-whatsapp btn-whatsapp"></span>
-          <button class="btn-trial">Proba gratis ahora!</button>
+          <button class="btn-trial">Try it for free now!</button>
         </div>
       </div>
 
       <!-- Card 2 -->
       <div class="agent-card card-concesionaria">
-        <h5 class="card-title">CONCESIONARIA</h5>
+        <h5 class="card-title">CAR DEALERSHIP</h5>
         <p class="card-desc">
-          Desde modelos hasta planes de financiación.<br/>
-          Experimenta un asistente que acelera tus ventas.
+          From models to financing plans. Experience an assistant that accelerates your sales.
         </p>
         <div class="card-buttons">
           <span class="flaticon-whatsapp btn-whatsapp"></span>
-          <button class="btn-trial">Proba gratis ahora!</button>
+          <button class="btn-trial">Try it for free now!</button>
         </div>
       </div>
 
       <!-- Card 3 -->
       <div class="agent-card card-viajes">
-        <h5 class="card-title">AGENCIA DE VIAJES</h5>
+        <h5 class="card-title">TRAVEL AGENCY</h5>
         <p class="card-desc">
-          Consulta destinos, paquetes y fechas.<br/>
-          Un asistente que guía la experiencia como un experto en viajes.
+          Inquire about destinations, packages, and dates. An assistant that guides the experience like a travel expert.
         </p>
         <div class="card-buttons">
           <span class="flaticon-whatsapp btn-whatsapp"></span>
-          <button class="btn-trial">Proba gratis ahora!</button>
+          <button class="btn-trial">Try it for free now!</button>
         </div>
       </div>
 
       <!-- Card 4 -->
       <div class="agent-card card-postventa">
-        <h5 class="card-title">SERVICIO POSTVENTA</h5>
+        <h5 class="card-title">AFTER-SALES SERVICE</h5>
         <p class="card-desc">
-          Reclamos, consultas técnicas, manuales de usuario.<br/>
-          Descubre cómo tu cliente recibe atención inmediata, sin esfuerzo.
+          Claims, technical inquiries, user manuals. Discover how your customer receives immediate attention, effortlessly.
         </p>
         <div class="card-buttons">
           <span class="flaticon-whatsapp btn-whatsapp"></span>
-          <button class="btn-trial">Proba gratis ahora!</button>
+          <button class="btn-trial">Try it for free now!</button>
         </div>
       </div>
     </div>
@@ -74,7 +70,7 @@ export default {
   width: 100%;
   padding: 80px 20px;
   box-sizing: border-box;
-  background-image: url('/assets/images/fondo_hero_solo.png');
+  background-image: url('/public/assets/images/imagen-section3.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -86,7 +82,7 @@ export default {
   font-weight: 600;
   text-align: center;
   margin-bottom: 20px;
-  color: #333;
+  color: #0f0f0f;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -123,19 +119,19 @@ export default {
 
 /* Fondos específicos para cada card */
 .card-inmobiliaria {
-  background-color: #c8e070 !important;
+  background-color: #727376 !important;
 }
 
 .card-concesionaria {
-  background-color: rgba(110, 77, 101, 0.08);
+  background-color: #727376 !important;;
 }
 
 .card-viajes {
-  background-color: rgba(74, 117, 77, 0.08);
+  background-color: #727376 !important;;
 }
 
 .card-postventa {
-  background-color: rgba(121, 102, 62, 0.08);
+  background-color: #727376 !important;;
 }
 
 /* Título de card */
@@ -143,7 +139,7 @@ export default {
   font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 15px;
-  color:#000000;
+  color:#f0f0f0;
 }
 
 /* Descripción */
@@ -153,7 +149,7 @@ export default {
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 25px;
-  color: #333;
+  color: #f0f0f0;
 }
 
 /* Botones */
@@ -170,7 +166,7 @@ export default {
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  background-color: #25D366;
+  background-color: #B7F38A;
   border: none;
   display: flex;
   align-items: center;
@@ -189,7 +185,7 @@ export default {
 /* Probar gratis con bordes más redondeados */
 .btn-trial {
   padding: 10px 20px;
-  background-color: #3fa550; /* Verde más opaco */
+  background-color: #B7F38A; /* Verde más opaco */
   border: none;
   border-radius: 30px; /* Más redondeado */
   font-size: 1rem;
