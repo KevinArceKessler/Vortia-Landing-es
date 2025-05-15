@@ -7,7 +7,7 @@
         <div class="col-md-6">
           <div class="text-block">
             <!-- Title -->
-            <h2 class="s-46 w-700 text-title">Real conversations. Instant answers. Exceptional results.</h2>
+            <h2 class="s-46 w-700 text-title">Conversaciones reales. Respuestas instantáneas. Resultados extraordinarios.</h2>
             
             <a 
               class="btn-demo" 
@@ -16,7 +16,7 @@
               href="https://wa.me/15557245821?text=Me%20gustar%C3%ADa%20agendar%20una%20reuni%C3%B3n%20para%20saber%20m%C3%A1s%20sobre%20Vortia" 
               target="_blank"
             >
-            SCHEDULE YOUR DEMO
+            ¡Agendá tu demo gratis!
             </a>
           </div>
         </div>

@@ -6,23 +6,23 @@
           <div class="image-container">
             <img src="../../../public/redondo.png" alt="VORTIA AI" class="vortia-image">
           </div>
-          <h2 class="ai-tagline">Empower your business with AI that understands your needs</h2>
-          <p class="ai-description">VORTIA's intelligent solutions transform how you connect with customers, optimize operations, and drive growth.</p>
+          <h2 class="ai-tagline">Potenciá tu negocio con IA que comprende tus necesidades.</h2>
+          <p class="ai-description">Las soluciones inteligentes de VORTIA transforman la forma en que usted se conecta con los clientes, optimiza las operaciones e impulsa el crecimiento.</p>
         </div>
         
         <!-- Lado derecho: Formulario -->
         <div class="form-container">
-          <h2 class="form-title">Contact Us</h2>
-          <p class="form-subtitle">Questions about our AI assistant?</p>
+          <h2 class="form-title">Contácnenos</h2>
+          <p class="form-subtitle">¿Tienes preguntas sobre nuestro asistente de inteligencia artificial?</p>
           
           <form @submit.prevent="submitForm" class="contact-form">
             <div class="form-group">
-              <label for="name">Name</label>
+              <label for="name">Nombre</label>
               <input 
                 type="text" 
                 id="name" 
                 v-model="formData.name" 
-                placeholder="Your name"
+                placeholder="Ingresá tu nombre"
                 required
               />
             </div>
@@ -33,24 +33,24 @@
                 type="email" 
                 id="email" 
                 v-model="formData.email" 
-                placeholder="your@email.com"
+                placeholder="tu@email.com"
                 required
               />
             </div>
             
             <div class="form-group">
-              <label for="message">Message</label>
+              <label for="message">Mensaje</label>
               <textarea 
                 id="message" 
                 v-model="formData.message" 
-                placeholder="How can we help you?"
+                placeholder="¿Cómo podemos ayudarte?"
                 rows="4"
                 required
               ></textarea>
             </div>
             
             <button type="submit" class="submit-button">
-              Send Message
+              Enviar mensaje
             </button>
           </form>
         </div>

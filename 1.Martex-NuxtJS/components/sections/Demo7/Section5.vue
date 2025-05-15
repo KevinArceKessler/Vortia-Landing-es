@@ -2,8 +2,8 @@
   <section id="section5" class="features-section">
     <!-- Título de la sección -->
     <div class="section-header">
-      <h2 class="section-title">Features that drive sales</h2>
-      <p class="section-subtitle">Discover how vortia revolutionizes customer engagement with AI</p>
+      <h2 class="section-title">Características que transforman ventas</h2>
+      <p class="section-subtitle">Descubre cómo Vortia revoluciona la atención al cliente con inteligencia artificial</p>
     </div>
     
     <div class="features-container">
@@ -11,12 +11,11 @@
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <h3>24/7 Support across all your channels</h3>
+            <h3>Atención 24/7 en todos tus canales</h3>
           </div>
           <div class="flip-card-back">
-            <p>Never miss a query again.</p>
-            <p>Your assistant responds instantly, every day, at any time. Whether it's WhatsApp, your website, or social
-              media—wherever your customer is, Vortia is there.</p>
+            <p>Nunca más una consulta sin respuesta.</p>
+            <p>Tu asistente responde al instante, todos los días, a toda hora. En WhatsApp, web o redes... Donde esté tu cliente, ahí está Vortia.</p>
           </div>
         </div>
       </div>
@@ -25,12 +24,11 @@
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <h3>Advanced conversational intelligence</h3>
+            <h3>Inteligencia conversacional avanzada</h3>
           </div>
           <div class="flip-card-back">
-            <p>Talks like a human. Sells like an expert.</p>
-            <p>Understands intentions and responds naturally. Guides customer precisely towards closing. Always clear,
-              always sales-oriented.</p>
+            <p>Habla como una persona. Vende como un experto.</p>
+            <p>Comprende intenciones y responde con naturalidad. Guía al cliente con precisión hacia el cierre. Siempre claro, siempre orientado a vender.</p>
           </div>
         </div>
       </div>
@@ -39,12 +37,11 @@
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <h3>Live performance monitoring</h3>
+            <h3>Monitoreo en tiempo real</h3>
           </div>
           <div class="flip-card-back">
-            <p>Supervise Every Conversation Instantly.</p>
-            <p>Access live what's happening with your assistant. Detect opportunities, adjust messages, take control.
-              Supervise every conversation instantly.</p>
+            <p>Supervisa cada conversación al instante.</p>
+            <p>Accede en vivo a lo que ocurre con tu asistente. Detecta oportunidades, ajusta mensajes, toma el control. Mejora tu estrategia con datos accionables al momento.</p>
           </div>
         </div>
       </div>
@@ -53,11 +50,11 @@
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <h3>Boost your conversion rate</h3>
+            <h3>Aumenta la tasa de conversión</h3>
           </div>
           <div class="flip-card-back">
-            <p>Designed to sell in every interaction.</p>
-            <p>Up to 30% more closings, without human intervention. Measurable results. Real growth.</p>
+            <p>Diseñado para vender en cada interacción.</p>
+            <p>Hasta un 30% más de cierres, sin intervención humana. Resultados medibles. Crecimiento real.</p>
           </div>
         </div>
       </div>

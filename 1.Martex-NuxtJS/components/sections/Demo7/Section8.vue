@@ -2,9 +2,9 @@
   <section id="ai-agent" class="ai-agent-section">
     <div class="hero-background"></div>
     <div class="content-wrapper">
-      <p class="subtitle">Automate. Scale. Sell without limits.</p>
+      <p class="subtitle">Automatiza. Escala. Vende sin límites.</p>
       <h6 class="main-title">
-        INTEGRATE AI INTO YOUR BUSINESS PROCESS.
+        SUMÁ IA A LOS PROCESOS DE TU EMPRESA.
       </h6>
     </div>
   </section>

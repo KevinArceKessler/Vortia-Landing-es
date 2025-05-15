@@ -1,123 +1,100 @@
 <template>
   <div class="about-page">
     <div class="container py-5">
-      <h1 class="text-center mb-5">About Us</h1>
+      <h1 class="text-center mb-5">Sobre nosotros</h1>
       
       <!-- Origin Section -->
       <section class="about-section mb-5">
-        <h2 class="section-title">The Origin of VORTIA</h2>
+        <h2 class="section-title">VORTIA: tecnología con propósito</h2>
         <div class="section-content">
           <p>
-            In January 2025, under the Montevideo sun and between mates, coffee, and the occasional dog bark,
-            VORTIA was born.
+            En enero de 2025, en Montevideo, Uruguay, nació VORTIA. No fue en una oficina corporativa ni en un espacio formal: fue entre mates, cafés, ladridos de perritos y pasión por crear algo distinto.
           </p>
           <p>
-            Not in a sleek office or a fancy boardroom, but in a humble family garage. A small space with a bold vision: 
-            bringing artificial intelligence to businesses—not as a trend, but as a real growth tool.
-          </p>
+            Desde el principio, tuvimos claro nuestro objetivo: llevar la inteligencia artificial a las empresas como una herramienta concreta de crecimiento, no como una tendencia pasajera. </p>
           <p>
-            What started as a shared dream among brothers and friends quickly evolved into a tech company 
-            with entrepreneurial spirit and a drive to create impact.
+            Lo que comenzó como un proyecto entre hermanos y amigos, se convirtió rápidamente en una empresa de base tecnológica, con alma emprendedora y vocación transformadora.
           </p>
         </div>
       </section>
       
       <!-- Vision Section -->
       <section class="about-section mb-5">
-        <h2 class="section-title">Our Vision: Purpose-Driven AI</h2>
+        <h2 class="section-title">IA que genera impacto</h2>
         <div class="section-content">
           <p>
-            At VORTIA, we believe technology only matters when it makes a difference.
-            Our mission is simple:
+            En VORTIA creemos que la tecnología solo tiene valor si resuelve problemas reales.
           </p>
           <p class="mission-statement">
-            Harness the power of artificial intelligence to boost productivity, efficiency, and profitability for businesses.
-          </p>
-          <p>
-            We develop accessible, scalable, and personalized solutions—designed to fit real business processes 
-            without headaches or unnecessary jargon.
+            Nuestra misión es clara: desarrollar soluciones basadas en inteligencia artificial que impulsen la productividad, eficiencia y rentabilidad de las empresas, con herramientas accesibles, escalables y diseñadas para integrarse fácilmente en entornos de negocio reales.
           </p>
           <p class="font-italic">
-            We don't just sell software—we deliver growth.
+            No solo vendemos software. Proponemos crecimiento.
           </p>
         </div>
       </section>
       
       <!-- Team Section -->
       <section class="about-section mb-5">
-        <h2 class="section-title">Our Team</h2>
+        <h2 class="section-title">Un equipo, una cultura</h2>
         <div class="section-content">
           <p>
-            Behind every smart assistant, every line of code, and every successful deployment, there are people.
+            Detrás de cada desarrollo, de cada asistente virtual y cada proceso automatizado, hay personas comprometidas, creativas y profundamente humanas.
           </p>
           <p>
-            Meet the passionate humans powering VORTIA:
+            Te presentamos al equipo que hace que VORTIA sea posible:
           </p>
           
           <div class="team-members">
             <!-- Member 1 -->
             <div class="team-member">
               <h3>Román Arce Kessler</h3>
-              <h4>Co-Founder & AI Developer</h4>
+              <h4>Co-Fundador & Desarrollador IA</h4>
               <ul>
-                <li><strong>Age:</strong> 27</li>
-                <li>The spark that started it all. Román dreamed, designed, and built the very first 
-                    Smart Virtual Assistant that became VORTIA.</li>
-                <li>A brilliant developer with a thirst for learning new languages and technologies
-                    (Python, Node.js, MongoDB—you name it).</li>
-                <li>Dog lover, family-food fan, wine enthusiast, and guitar player with a folk twist.</li>
-                <li>Proud River Plate fan.</li>
+                <li>La mente técnica y creativa detrás de nuestras primeras soluciones.</li>
+                <li>Apasionado por la programación y la innovación continua.</li>
+                <li>Fan de los perros, del buen vino, de las comidas en familia y de tocar la guitarra con aires de folklore.</li>
               </ul>
             </div>
             
             <!-- Member 2 -->
             <div class="team-member">
               <h3>Gastón Arce Kessler</h3>
-              <h4>Strategy & Business Development</h4>
+              <h4>Co-Fundador. Estrategia & Desarrollo Comercial</h4>
               <ul>
-                <li><strong>Age:</strong> 38</li>
-                <li>The strategic brain. A lawyer, a dad, and a natural-born speaker. Gastón has a gift for 
-                    spotting opportunities you didn't know were there.</li>
-                <li>Marathon runner, ritual coffee drinker, and wellness advocate.</li>
-                <li>River Plate forever.</li>
+                <li>El pensamiento estratégico que convierte ideas en oportunidades. </li>
+                <li>Experiencia, visión de negocio y comunicación clara.</li>
+                <li>Corre maratones, toma café como ritual.</li>
               </ul>
             </div>
             
             <!-- Member 5 (Moving Kevin to the middle) -->
             <div class="team-member">
               <h3>Kevin Arce Kessler</h3>
-              <h4>Technical Coordinator & Team Facilitator</h4>
+              <h4>Coordinación Técnica & Facilitación de Equipos</h4>
               <ul>
-                <li><strong>Age:</strong> 33</li>
-                <li>Programmer, analyst, teacher, dad... and master organizer. Kevin is the invisible gear 
-                    connecting the entire team.</li>
-                <li>Never starts a day without mate. Cat lover, spontaneous dancer, and part-time percussionist.</li>
-                <li>And yes, another proud River fan.</li>
+                <li>El organizador invisible que conecta cada parte del equipo con precisión, claridad y compromiso.</li>
+                <li>Nunca arranca el día sin su mate. Amante de los gatos y de la familia.</li>
               </ul>
             </div>
             
             <!-- Member 3 -->
             <div class="team-member">
               <h3>Marcelo Francone</h3>
-              <h4>Sales, Implementation & After-Sales</h4>
+              <h4>Ventas, Implementación y Postventa</h4>
               <ul>
-                <li><strong>Age:</strong> 29</li>
-                <li>Charismatic, friendly, and always ready to help. Marcelo is the face of VORTIA in
-                    many commercial and implementation processes.</li>
-                <li>Bassist, volleyball enthusiast, and a passionate sports fan.</li>
-                <li>Yes, also River.</li>
+                <li>El puente entre la solución y el cliente. Cercano, confiable y orientado a resultados.</li>
+                <li>Un bajista entusiasta y apasionado del deporte en general.</li>
               </ul>
             </div>
             
             <!-- Member 4 -->
             <div class="team-member">
               <h3>Alan Arce Kessler</h3>
-              <h4>Head of Sales</h4>
+              <h4>Gerente Comercial</h4>
               <ul>
-                <li><strong>Age:</strong> 36</li>
-                <li>The perfect balance between strategy and execution. Alan leads with calm, empathy, and precision.</li>
-                <li>Father of three, mate drinker (though not the best at preparing it 😅), football fanatic, and family-first.</li>
-                <li>A River supporter, no doubt.</li>
+                <li>Gestión con equilibrio y liderazgo humano. Capacidad de ejecución y mirada de largo plazo.</li>
+                <li>Papá de tres, amante del mate, fanático del fútbol.</li>
               </ul>
             </div>
           </div>
@@ -126,41 +103,38 @@
       
       <!-- Services Section -->
       <section class="about-section mb-5">
-        <h2 class="section-title">VORTIA in Action</h2>
+        <h2 class="section-title">Lo que hacemos</h2>
         <div class="section-content">
           <p>
-            We don't just talk about AI—we make it happen. Here's what we specialize in:
+            En VORTIA diseñamos soluciones tecnológicas personalizadas con foco en:
           </p>
           
           <div class="services-grid">
             <div class="service-item">
-              <h3>Task Automation</h3>
+              <h3>Automatización de tareas repetitivas</h3>
               <p>
-                Instant, personalized replies to frequent queries. Real time savings for teams and users.
+                Respuestas inmediatas y personalizadas a consultas frecuentes. Ahorro de tiempo real para empresas y usuarios.
               </p>
             </div>
             
             <div class="service-item">
-              <h3>Data Analysis</h3>
+              <h3>Análisis de datos para decisiones basadas en evidencia</h3>
               <p>
-                Live insights into sales, customer behavior, and improvement opportunities. 
-                Data-driven decisions, not guesswork.
+                Visualización en tiempo real sobre ventas, comportamiento de clientes y oportunidades de mejora. Decisiones basadas en datos, no suposiciones.
               </p>
             </div>
             
             <div class="service-item">
-              <h3>System Integration</h3>
+              <h3>Integración fluida con sistemas existentes</h3>
               <p>
-                We connect with the tools you already use (CRMs, ERPs, e-commerce platforms, etc.) 
-                to build seamless, friction-free workflows.
+                onectamos nuestras soluciones con las herramientas que ya usás (CRM, ERP, e-commerce, etc.) para crear flujos de trabajo eficientes y sin fricciones.
               </p>
             </div>
             
             <div class="service-item">
-              <h3>24/7 Customer Support</h3>
+              <h3>Atención al cliente 24/7 mediante asistentes virtuales inteligentes</h3>
               <p>
-                Smart virtual assistants that provide non-stop service, anytime, any day. 
-                Enhancing your customer experience and brand image.
+                Asistentes virtuales inteligentes que brindan soporte constante, sin importar el día ni la hora. Mejoran la experiencia y fortalecen la imagen de tu marca.
               </p>
             </div>
           </div>
@@ -169,24 +143,23 @@
       
       <!-- Final Section -->
       <section class="about-section mb-5">
-        <h2 class="section-title">Looking Ahead with Both Feet on the Ground</h2>
+        <h2 class="section-title">Una visión humana de la tecnología</h2>
         <div class="section-content">
           <p>
-            At VORTIA, we don't believe in magic tricks—we believe in useful, ethical, human-centered technology.
+            En VORTIA creemos en la inteligencia artificial como herramienta, no como fin. Apostamos a una tecnología ética, útil y centrada en las personas, que potencie a empresas reales, con desafíos concretos.
           </p>
           <p>
-            We believe in teamwork, staying close to our clients, and growing together—step by step—without 
-            losing our essence: family, mate, and the code that changes everything.
+            Trabajamos en equipo, escuchamos activamente a nuestros clientes y crecemos paso a paso, sin perder de vista nuestros valores: familia, cercanía, mate y código que transforma.
           </p>
         </div>
       </section>
       
       <!-- Contact Section -->
       <section class="about-section text-center">
-        <h2 class="section-title">Want to Be Part of the Story?</h2>
+        <h2 class="section-title">Si creés que la IA puede ayudarte a crecer, estamos listos para escucharte.</h2>
         <div class="section-content">
           <p>
-            Learn more at <a href="https://vortia.com.ar" target="_blank" class="vortia-link">vortia.com.ar</a> or drop us a message. We're here to help.
+            Conocé más en <a href="https://vortia.com.ar" target="_blank" class="vortia-link">vortia.com.ar</a> 
           </p>
         </div>
       </section>
