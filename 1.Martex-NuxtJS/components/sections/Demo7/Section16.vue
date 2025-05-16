@@ -3,13 +3,13 @@
         <div class="hero-background"></div>
         <div class="content-wrapper">
             <h6 class="subtitle">
-                Ready to See How Your Business Responds with AI?
+                ¿Listo para ver cómo responde su negocio con IA?
             </h6>
             <h2 class="main-title">
-                EFFORTLESS INTERFACE. COMPLETE CONTROL, LIVE
+                Interfaz intuitiva. Control total en tiempo real.
             </h2>
             <a href="https://wa.me/15557245821?text=Me%20gustar%C3%ADa%20agendar%20una%20reuni%C3%B3n%20para%20saber%20m%C3%A1s%20sobre%20Vortia" class="btn-demo" target="_blank">
-                SCHEDULE YOUR DEMO
+                ¡Hablemos!
             </a>
         </div>
     </section>

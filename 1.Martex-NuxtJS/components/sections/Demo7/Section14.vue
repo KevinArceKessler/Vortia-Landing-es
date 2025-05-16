@@ -6,9 +6,9 @@
           <div class="col-md-10 col-lg-9">
             <div class="section-title mb-70">
               <!-- Title -->
-              <h2 class="s-50 w-700 titulo-principal">EVERYTHING READY IN JUST 4 WEEKS</h2>
+              <h2 class="s-50 w-700 titulo-principal">TODO LISTO EN SOLO 4 SEMANAS</h2>
               <!-- Text -->
-              <h6 class="s-21 subtitulo-principal">Onboarding Process</h6>
+              <h6 class="s-21 subtitulo-principal">Proceso de implementación</h6>
             </div>
           </div>
         </div>
@@ -29,23 +29,23 @@
               <div class="onboarding-text-container">
                 <div class="row">
                   <div class="col-md-3 step-text-box">
-                    <h6>Week 1: Design</h6>
-                    <p>We dive into your sales and business processes to tailor Vortia to your specific needs.</p>
+                    <h6>Semana 1: Diseñar</h6>
+                    <p>Nos sumergimos en tus procesos comerciales y de ventas para adaptar VORTIA a tus necesidades.</p>
                   </div>
                   
                   <div class="col-md-3 step-text-box">
-                    <h6>Week 2: Create</h6>
-                    <p>We develop AI agents aligned with your business goals, ready to deliver real results.</p>
+                    <h6>Semana 2: Crear</h6>
+                    <p>Creamos los agentes de IA para que cumplan con tus objetivos específicos de negocio.</p>
                   </div>
                   
                   <div class="col-md-3 step-text-box">
-                    <h6>Week 3: Integrate</h6>
-                    <p>We connect seamlessly with your existing tools and CRM to ensure a smooth workflow.</p>
+                    <h6>Semana 3: Integrar</h6>
+                    <p>Nos integramos con tus herramientas y CRM existentes, lo que garantiza un flujo de trabajo fluido.</p>
                   </div>
                   
                   <div class="col-md-3 step-text-box">
-                    <h6>Week 4: Optimize</h6>
-                    <p>We continuously monitor and fine-tune our agents to keep everything running at peak performance.</p>
+                    <h6>Semana 4: Optimizar</h6>
+                    <p>Supervisamos a nuestros agentes periódicamente para asegurarnos de que todo funcione sin problemas.</p>
                   </div>
                 </div>
               </div>

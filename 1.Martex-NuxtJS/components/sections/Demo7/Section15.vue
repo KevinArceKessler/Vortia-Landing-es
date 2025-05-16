@@ -2,9 +2,9 @@
     <section id="ai-agent" class="ai-agent-section">
         <div class="hero-background"></div>
         <div class="content-wrapper">
-            <h6 class="subtitle">Advertise. We respond. You sell.</h6>
+            <h6 class="subtitle">Publicita. Respondemos. Vendes.</h6>
             <h2 class="main-title">
-              YOUR ADVERTISING DESERVES INTELLIGENT RESPONSES
+              TU PUBLICIDAD MERECE UNA RESPUESTA INTELIGENTE
             </h2>
         </div>
     </section>

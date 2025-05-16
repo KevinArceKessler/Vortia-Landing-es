@@ -7,19 +7,19 @@
       <div class="blog-card" @click="toggleCard(0)" :class="{ 'expanded': expandedCards[0] }">
         <div class="card-preview">
           <div class="card-image" style="background-color: #8430D9;">
-            <h2>Artificial Intelligence: Fad or Strategic Necessity?</h2>
+            <h2>Inteligencia Artificial: ¿Moda pasajera o necesidad estratégica?</h2>
           </div>
           <div class="card-content">
-            <h3>Artificial Intelligence: Fad or Strategic Necessity?</h3>
+            <h3>Inteligencia Artificial: ¿Moda pasajera o necesidad estratégica?</h3>
             <p class="card-date">
               <i class="fas fa-calendar-alt"></i> march 25, 2025
             </p>
             <p class="card-excerpt">
-              We're living in an era where Artificial Intelligence (AI) and related concepts like machine learning, automation, and intelligent virtual assistants have entered everyday business conversations...
+              Vivimos en una era en la que la Inteligencia Artificial (IA) y conceptos relacionados como machine learning, automatización y asistentes virtuales inteligentes se han instalado en la conversación diaria...
             </p>
             <div class="read-more">
-              <span v-if="!expandedCards[0]">Read more</span>
-              <span v-else>Read less</span>
+              <span v-if="!expandedCards[0]">Lee más</span>
+              <span v-else>Lee menos</span>
             </div>
           </div>
         </div>
@@ -27,58 +27,58 @@
         <!-- Expanded Content -->
         <div class="card-expanded-content" v-if="expandedCards[0]">
           <div class="expanded-container">
-            <p>By the VORTIA SRL Team</p>
-            <p>We're living in an era where Artificial Intelligence (AI) and related concepts like machine learning, automation, and intelligent virtual assistants have entered everyday business conversations. From tech startups to local businesses, everyone seems to be talking about—and often adopting—some form of AI.</p>
-            <p>But in the midst of all this buzz, a very valid and common question arises:</p>
-            <p class="highlight">Do I really need to implement AI if my business is already running smoothly?</p>
-            <p>The short answer might be "it depends."</p>
-            <p>But the more strategic, responsible answer is this:</p>
-            <p class="highlight">If you don't seriously consider adopting AI, there's a real risk of losing competitiveness in the medium and long term.</p>
+            <p>Por el equipo de VORTIA</p>
+            <p>Vivimos en una era en la que la Inteligencia Artificial (IA) y conceptos relacionados como machine learning, automatización y asistentes virtuales inteligentes se han instalado en la conversación diaria. Desde startups tecnológicas hasta pequeños comercios barriales, todos parecen estar hablando —y en muchos casos adoptando— alguna forma de IA.</p>
+            <p>Pero ante tanto ruido, surge una pregunta tan legítima como frecuente:</p>
+            <p class="highlight">¿Es realmente necesario implementar inteligencia artificial si mi empresa ya funciona bien como está?</p>
+            <p>La respuesta rápida sería “depende”. </p>
+            <p>Pero la respuesta responsable, y estratégicamente más útil, es otra:</p>
+            <p class="highlight">si no se evalúa seriamente la incorporación de IA, existe un riesgo real de perder competitividad a mediano y largo plazo.</p>
             
-            <h4>Beyond the Hype: Efficiency as the Real Driver</h4>
-            <p>Adopting emerging technologies shouldn't be about trends—it should serve a clear purpose: operational efficiency. And in this space, AI has proven to be a powerful tool.</p>
-            <p>For many businesses, especially small and medium-sized ones, AI still feels like a costly, unnecessary, or complex investment. But properly implemented, it can deliver real, measurable value in areas such as:</p>
+            <h4>Más allá de la moda: la eficiencia como verdadero motor</h4>
+            <p>La adopción de tecnologías emergentes no debería responder a una moda, sino a una necesidad concreta: la búsqueda de eficiencia operativa. Y en ese campo, la IA ha demostrado ser una herramienta poderosa.</p>
+            <p>En muchas empresas, especialmente en pymes, la IA todavía se percibe como una inversión costosa, innecesaria o difícil de implementar. Pero lo cierto es que, bien aplicada, puede aportar valor real y medible en áreas tan diversas como:</p>
             <ul>
-              <li>Customer service</li>
-              <li>Data management</li>
-              <li>Logistics and planning</li>
-              <li>Marketing and advertising</li>
-              <li>Sales processes</li>
+              <li>Atención al cliente</li>
+              <li>Administración de datos</li>
+              <li>Logística y planificación</li>
+              <li>Publicidad y marketing</li>
+              <li>Procesos de venta</li>
             </ul>
             
-            <h4>A Realistic Example</h4>
-            <p>Imagine a business automating its customer service channels—WhatsApp, social media, even its website—using AI. What they get is not just a bot that gives basic answers, but a tireless digital teammate that works 24/7, 365 days a year, without breaks or delays.</p>
-            <p>This "digital collaborator" doesn't just reply—it understands context, advises the customer, sorts inquiries, and escalates complex issues to human staff. Meanwhile, your real team can focus on what matters: closing deals, coordinating actions, and solving the tough cases.</p>
+            <h4>Un ejemplo realista</h4>
+            <p>Imaginemos una empresa que decide automatizar sus canales de atención al cliente —WhatsApp, redes sociales, e incluso su propio sitio web— utilizando inteligencia artificial. Lo que obtiene no es simplemente un bot que responde preguntas básicas, sino un colaborador incansable que trabaja 24/7, los 365 días del año, sin descansos ni demoras.</p>
+            <p>Este “colaborador digital” no solo responde dudas, sino que entiende el contexto de la conversación, asesora al cliente, clasifica las consultas, y deriva los casos complejos al equipo humano, optimizando el tiempo y los recursos del personal. Mientras tanto, los colaboradores reales pueden enfocarse en tareas estratégicas: cerrar ventas, coordinar acciones, resolver casos complejos.</p>
             
-            <h4>AI as a Silent Competitive Advantage</h4>
-            <p>Even if your business is already running efficiently, AI won't replace what you do well—it will enhance it, accelerate it, and scale it.</p>
-            <p>A competitor who adopts AI smartly can make faster decisions, with better information, and with fewer human resources. Simply put: they'll earn more while spending less.</p>
-            <p>This doesn't mean replacing your team—it means empowering them. AI frees your staff from repetitive tasks and allows them to focus on strategic, creative, and impactful roles.</p>
+            <h4>La IA como ventaja competitiva silenciosa</h4>
+            <p>Incluso si tu empresa funciona de forma eficiente, es clave entender que la IA no reemplaza lo que hacés bien: lo mejora, lo acelera y lo escala.</p>
+            <p>Un competidor que adopte inteligencia artificial de manera inteligente podrá tomar decisiones más rápido, con mejor información y utilizando menos recursos humanos. En palabras simples: ganará más, gastando menos.</p>
+            <p>Esto no implica que debas reemplazar a tu equipo, sino todo lo contrario: vas a darles herramientas para potenciar su rendimiento. La IA no sustituye al humano; lo libera de tareas repetitivas y lo eleva hacia funciones más analíticas, creativas y decisivas.</p>
             
-            <h4>Numbers That Speak for Themselves</h4>
-            <p>According to PwC, the global economic impact of AI could reach $15.7 trillion by 2030, thanks to increased productivity and more personalized services. Of that, $6.6 trillion will come from improved labor efficiency.</p>
-            <p>In Latin America, AI adoption is growing fast. Argentine businesses are already using intelligent virtual assistants, product recommendation engines, and predictive models to segment audiences and optimize marketing.</p>
+            <h4>Datos que hablan: una mirada global</h4>
+            <p>Según un informe de PwC, el impacto económico global de la IA podría alcanzar los 15,7 billones de dólares para 2030, gracias a mejoras en productividad y personalización de servicios. De ese total, $6,6 billones provendrían de aumentos en la eficiencia laboral. Es decir, no solo se trata de vender más, sino de trabajar mejor.</p>
+            <p>En Latinoamérica, el uso de IA está creciendo a un ritmo acelerado. Empresas argentinas ya están incorporando asistentes virtuales inteligentes, motores de recomendación de productos, y modelos predictivos para segmentar clientes y optimizar campañas de marketing.</p>
             
-            <h4>Accessible AI: Affordable and Simple (When You Know Where to Start)</h4>
-            <p>One of the big myths is that AI is only for large corporations—or that it's expensive and hard to implement. But today, scalable solutions exist so that any SME or independent business can start simply and effectively.</p>
-            <p>At VORTIA SRL, for example, we help businesses:</p>
+            <h4>IA accesible: ni cara ni compleja (si sabés por dónde empezar)</h4>
+            <p>Uno de los grandes mitos es que la inteligencia artificial es exclusiva para grandes corporaciones o que su implementación es costosa y lenta. Hoy existen soluciones escalables que permiten a una pyme o negocio independiente dar los primeros pasos de manera simple y efectiva.</p>
+            <p>Por ejemplo, en VORTIA SRL ayudamos a empresas a:</p>
             <ul>
-              <li>Automate FAQs with intelligent virtual assistants</li>
-              <li>Use AI in ad campaigns for better audience targeting</li>
-              <li>Create WhatsApp conversation flows that boost conversion rates</li>
-              <li>Analyze customer behavior and sales data to forecast trends</li>
+              <li>Automatizar respuestas frecuentes con asistentes virtuales inteligentes.</li>
+              <li>Integrar IA en sus campañas publicitarias para segmentar audiencias con mayor precisión.</li>
+              <li>Implementar flujos conversacionales en WhatsApp que aumenten las tasas de conversión.</li>
+              <li>Analizar datos históricos de ventas o comportamiento de clientes para proyectar tendencias.</li>
             </ul>
             
-            <h4>So… Fad or Strategic Necessity?</h4>
-            <p>AI is no longer a future promise—it's a present reality. It's not about chasing tech trends; it's about leveraging a strategic opportunity to improve how you work, serve, and sell.</p>
-            <p>Ignoring this shift won't ruin your business, but it will slow you down. And in fast-moving markets, that's the difference between growing and falling behind.</p>
+            <h4>Entonces... ¿moda o necesidad?</h4>
+            <p>La IA ya no es una promesa futurista: es una realidad presente. No se trata de seguir una moda tecnológica, sino de aprovechar una oportunidad estratégica para mejorar la forma en que trabajás, atendés y vendés.</p>
+            <p>Ignorar esta evolución no te condena, pero te atrasa. Y en mercados cada vez más dinámicos, eso puede marcar la diferencia entre crecer o quedarse atrás.</p>
             
-            <h4>In Conclusion</h4>
-            <p>Artificial Intelligence is a tool—not a replacement. It's here to help you work smarter, make better decisions, deliver superior experiences, and scale your business sustainably.</p>
-            <p>Is your business running well already? Great.</p>
-            <p>AI can help it run even better.</p>
-            <p class="highlight">📌 Want to know how to apply AI in your business without overspending or wasting time?</p>
-            <p class="call-to-action">Let's talk. At VORTIA SRL, we design real solutions for real businesses.</p>
+            <h4>En conclusión</h4>
+            <p>La inteligencia artificial es una herramienta, no un reemplazo. Está para ayudarte a trabajar mejor, tomar decisiones más informadas, brindar una mejor experiencia a tus clientes y prepararte para escalar tu negocio de forma sostenible.</p>
+            <p>¿Tu empresa ya funciona bien? Excelente.</p>
+            <p>La IA puede ayudarte a que funcione aún mejor.</p>
+            <p class="highlight">📌 ¿Querés saber cómo aplicar IA en tu negocio sin gastar de más ni perder tiempo?</p>
+            <p class="call-to-action">Hablemos. En VORTIA SRL diseñamos soluciones a medida para empresas reales, con necesidades reales.</p>
             <p><a href="https://vortia.com.ar" class="btn-link">👉 https://vortia.com.ar</a></p>
           </div>
         </div>
@@ -88,19 +88,19 @@
       <div class="blog-card" @click="toggleCard(1)" :class="{ 'expanded': expandedCards[1] }">
         <div class="card-preview">
           <div class="card-image" style="background-color: #5E73E1;">
-            <h2>Intelligent Virtual Assistants, Chatbots, and Humans</h2>
+            <h2>Asistentes Virtuales Inteligentes, Chatbots y Humanos</h2>
           </div>
           <div class="card-content">
-            <h3>Intelligent Virtual Assistants, Chatbots, and Humans: Who Do You Trust?</h3>
+            <h3>Asistentes Virtuales Inteligentes, Chatbots y Humanos: ¿A quién le confiás tu atención al cliente?</h3>
             <p class="card-date">
-              <i class="fas fa-calendar-alt"></i> february 20, 2025
+              <i class="fas fa-calendar-alt"></i> 10 de mayo de 2025
             </p>
             <p class="card-excerpt">
-              In today's digital world, where speed is everything, customer service has become a competitive advantage, not just a support area...
+              En la era digital, donde la inmediatez es un valor clave para los consumidores, la atención al cliente...
             </p>
             <div class="read-more">
-              <span v-if="!expandedCards[1]">Read more</span>
-              <span v-else>Read less</span>
+              <span v-if="!expandedCards[1]">Lee más</span>
+              <span v-else>Lee menos</span>
             </div>
           </div>
         </div>
@@ -108,83 +108,83 @@
         <!-- Expanded Content -->
         <div class="card-expanded-content" v-if="expandedCards[1]">
           <div class="expanded-container">
-            <p>By the VORTIA SRL Team</p>
-            <p>In today's digital world, where speed is everything, customer service has become a competitive advantage, not just a support area. More and more businesses are asking:</p>
-            <p class="highlight">Should I use a chatbot? Invest in an intelligent virtual assistant (IVA)? Keep relying on my human team?</p>
-            <p>In this article, we break down the differences between a basic chatbot, an Intelligent Virtual Assistant (IVA), and traditional support—and explain how these technologies are transforming businesses in Argentina.</p>
+            <p>Por el equipo de VORTIA SRL</p>
+            <p>En la era digital, donde la inmediatez es un valor clave para los consumidores, la atención al cliente se ha convertido en un diferencial competitivo más que en un área de soporte. Frente a este escenario, cada vez más empresas se preguntan:</p>
+            <p class="highlight">¿Debo usar un chatbot? ¿Me conviene invertir en un asistente virtual inteligente? ¿Sigo dependiendo solo del equipo humano?</p>
+            <p>En este artículo, te explicamos en qué se diferencia un Asistente Virtual Inteligente (AVI) de un chatbot básico o de la atención tradicional, cómo estas tecnologías están transformando negocios reales en Argentina, y por qué elegir bien puede definir el crecimiento de tu empresa.</p>
             
-            <h4>What Is an Intelligent Virtual Assistant?</h4>
-            <p>Let's clarify: a chatbot is not the same as an IVA.</p>
-            <p>A chatbot is a program that answers frequently asked questions with scripted responses. It works for basic tasks like giving store hours, repeating prices, or sending forms. But it's usually limited and rigid.</p>
-            <p>An IVA, on the other hand, goes much further. It uses AI to understand natural language, interpret context, and adapt to different interaction scenarios.</p>
-            <p>It doesn't just answer—it guides the customer through their entire journey with your brand.</p>
+            <h4>¿Qué es un Asistente Virtual Inteligente?</h4>
+            <p>Empecemos por lo básico: un chatbot no es lo mismo que un AVI.</p>
+            <p>Un chatbot es un programa diseñado para responder de forma automática a preguntas frecuentes. Puede ser útil para tareas simples como informar horarios, repetir precios o enviar formularios. Sin embargo, su lógica suele ser lineal, limitada y rígida.</p>
+            <p>En cambio, un Asistente Virtual Inteligente (AVI) va mucho más allá. Utiliza inteligencia artificial para comprender el lenguaje natural, interpretar el contexto de las consultas y adaptarse a diferentes escenarios de interacción.</p>
+            <p>No se limita a responder: acompaña al cliente durante toda su experiencia con tu marca.</p>
             
-            <h4>How Can It Add Real Value to Your Business?</h4>
-            <p>Adopting an IVA isn't just a tech trend—it's a strategic decision that can transform your operations.</p>
-            <p>Key benefits include:</p>
+            <h4>¿Cómo puede sumar valor real a tu empresa?</h4>
+            <p>La incorporación de un AVI no es una moda tecnológica; es una herramienta estratégica que puede transformar tu operación comercial.</p>
+            <p>Estos son algunos beneficios clave:</p>
             <ul>
-              <li><strong>🕐 24/7 Availability</strong><br>
-              No matter if it's 3 a.m. on a Sunday or a public holiday—an IVA is always there, handling inquiries, taking orders, and routing requests instantly.</li>
+              <li><strong>🕐 Atención 24/7 sin interrupciones</strong><br>
+              No importa si es domingo a la madrugada o feriado nacional. Un AVI está siempre disponible, resolviendo consultas, tomando pedidos o derivando al área correspondiente sin demoras.</li>
               
-              <li><strong>🤝 Improved Customer Experience</strong><br>
-              Today's customers want quick, clear, and personalized interactions. An IVA can deliver accurate answers tailored to each user's specific need.</li>
+              <li><strong>🤝 Mejor experiencia para tus clientes</strong><br>
+              Hoy las personas valoran la inmediatez, la claridad y el trato personalizado. Un AVI puede guiar al usuario en tiempo real, con respuestas precisas y orientadas a su necesidad específica.</li>
               
-              <li><strong>💸 Lower Operating Costs</strong><br>
-              Automating repetitive tasks frees up your team to focus on what truly matters: closing sales, solving complex cases, and strategic thinking.</li>
+              <li><strong>💸 Ahorro en costos operativos</strong><br>
+              Automatizar tareas repetitivas libera a tu equipo humano para enfocarse en lo que realmente aporta valor: cerrar ventas, resolver casos complejos, pensar estratégicamente.</li>
               
-              <li><strong>📊 Business Intelligence from Conversations</strong><br>
-              Every interaction is data. IVAs can capture and analyze patterns, preferences, and objections—fueling smarter campaigns and business decisions.</li>
+              <li><strong>📊 Datos que generan inteligencia comercial</strong><br>
+              Cada conversación con un cliente es una fuente de información. Los AVIs pueden registrar, segmentar y analizar datos sobre comportamientos, preferencias y objeciones. Eso permite diseñar mejores campañas, ajustar productos y tomar decisiones basadas en evidencia.</li>
               
-              <li><strong>📈 Effortless Scalability</strong><br>
-              If your contact volume doubles, an IVA can manage it—no need to expand your customer service team. You scale without adding complexity.</li>
+              <li><strong>📈 Escalabilidad sin fricciones</strong><br>
+              Si tu empresa empieza a recibir el doble de contactos, un AVI puede gestionarlos sin que tengas que duplicar tu equipo de atención. Escalás sin sumar estructura.</li>
             </ul>
             
-            <h4>When to Choose an IVA, a Chatbot, or Human Service?</h4>
-            <p>The right solution depends on several factors: query volume, service complexity, company culture, and growth expectations.</p>
-            <p>A business with few products and limited customer service may start with a chatbot + human team.</p>
-            <p>A company aiming to scale, expand offerings, or automate sales and post-sales should invest in an IVA.</p>
-            <p>The key is not just meeting today's needs—but preparing for where you want to be tomorrow.</p>
+            <h4>¿Cuándo elegir un AVI, un chatbot o atención humana?</h4>
+            <p>La decisión depende de múltiples factores: volumen de consultas, complejidad del servicio, cultura organizacional y expectativas de crecimiento.</p>
+            <p>Una empresa con pocos productos y una atención acotada puede comenzar con un chatbot combinado con atención humana.</p>
+            <p>En cambio, si tu negocio apunta a escalar, ampliar su portafolio o automatizar flujos de ventas y posventa, un AVI es claramente la mejor inversión.</p>
+            <p>La clave no está solo en lo que necesitás hoy, sino en dónde querés que esté tu empresa mañana.</p>
             
-            <h4>Real Cases in Argentina: Technology in Action</h4>
-            <p>At VORTIA SRL, we work with businesses from many industries already transforming how they communicate using IVAs. For example:</p>
+            <h4>Casos reales en Argentina: tecnología que ya está en marcha</h4>
+            <p>En VORTIA SRL trabajamos con empresas de rubros muy diversos que ya están transformando su forma de comunicarse con los clientes mediante AVIs. Algunos sectores donde se destacan:</p>
             <ul>
-              <li>Insurance: automatic quotes, policy renewals, claims tracking</li>
-              <li>Tourism & Hospitality: bookings, FAQs, post-sales support</li>
-              <li>Automotive: lead generation, test drive scheduling, buyer intent classification</li>
-              <li>Healthcare: appointment scheduling, automated reminders, basic inquiries</li>
-              <li>Professional Services & Education: registrations, payments, onboarding</li>
+              <li>Seguros: cotización automática, renovación de pólizas, seguimiento de siniestros.</li>
+              <li>Turismo y hotelería: reservas, atención postventa, consultas frecuentes.</li>
+              <li>Automotor: generación de leads, gestión de turnos, clasificación de intención de compra.</li>
+              <li>Salud: turnos médicos, recordatorios automatizados, atención básica.</li>
+              <li>Servicios profesionales y educación: inscripción, pagos, orientación inicial.</li>
             </ul>
             
-            <h4>A Real Example: A Car Dealership That Sells While It Sleeps</h4>
-            <p>An Argentine dealership implemented an IVA to assist customers in three key areas:</p>
+            <h4>Un ejemplo concreto: una concesionaria que vende mientras duerme</h4>
+            <p>Una concesionaria de autos argentina implementó un AVI para asistir a sus prospectos en tres áreas clave:</p>
             <ul>
-              <li>Used cars</li>
-              <li>Savings plans</li>
-              <li>New vehicles</li>
+              <li>Venta de usados</li>
+              <li>Planes de ahorro</li>
+              <li>Autos 0 km</li>
             </ul>
-            <p>Results:</p>
+            <p>¿Resultados?</p>
             <ul>
-              <li>Round-the-clock service, even outside business hours</li>
-              <li>Automatic lead qualification by intent level</li>
-              <li>Human intervention only when necessary</li>
-              <li>Detailed sales team performance insights</li>
-              <li>Real-time monitoring of conversations and improvement points</li>
+              <li>Atención permanente, incluso fuera del horario comercial</li>
+              <li>Clasificación automática de los leads según nivel de intención de compra</li>
+              <li>Intervención humana solo cuando realmente se requiere</li>
+              <li>Análisis detallado del desempeño del equipo de ventas</li>
+              <li>Monitoreo en tiempo real de conversaciones y puntos de mejora</li>
             </ul>
-            <p>This kind of solution helps businesses close more deals, save time, and improve the customer journey end to end.</p>
+            <p>Este tipo de soluciones permiten cerrar más operaciones, ahorrar tiempo operativo y mejorar la experiencia del cliente de punta a punta.</p>
             
-            <h4>Is It Time to Invest in AI?</h4>
-            <p>Short answer: Yes—if you want your business to grow smart and sustainably.</p>
-            <p>This isn't about hype—it's a strategic move. Implementing an IVA doesn't have to be costly or complicated. Today, you have accessible, scalable tools that let you start with a pilot and evolve based on real outcomes.</p>
-            <p>At VORTIA SRL, we offer personalized advice to help you choose the right solution—without overspending or overpromising.</p>
+            <h4>¿Es momento de invertir en inteligencia artificial?</h4>
+            <p>La respuesta corta es: sí, si querés que tu empresa crezca de forma inteligente y sostenible.</p>
+            <p>No se trata de seguir una moda, sino de tomar una decisión estratégica. La implementación de un AVI no tiene por qué ser costosa ni complicada. Hoy existen herramientas accesibles, integrables y escalables que permiten iniciar con un proyecto piloto y ajustar según resultados reales.</p>
+            <p>En VORTIA SRL ofrecemos asesoramiento personalizado para ayudarte a elegir la solución adecuada para tu negocio, sin inversiones desmedidas ni promesas infladas.</p>
             
-            <h4>Conclusion: AI Doesn't Replace You—It Empowers You</h4>
-            <p>AI isn't here to take control of your business. It's here to boost it.</p>
-            <p>An Intelligent Virtual Assistant doesn't replace your team—it enhances it, frees it from repetitive tasks, and lets it focus on what truly moves the needle.</p>
-            <p>If you haven't added AI to your business yet, an IVA is the perfect starting point.</p>
-            <p>Don't wait for your competitors to move first.</p>
-            <p>Invest in efficiency, customer experience, and smart growth.</p>
-            <p class="highlight">📞 Want to learn how to implement AI or Intelligent Virtual Assistants in your business—without wasting time or money?</p>
-            <p class="call-to-action">Let's talk:</p>
+            <h4>Conclusión: la IA no te reemplaza, te impulsa</h4>
+            <p>La inteligencia artificial no vino a quitarte el control de tu empresa. Vino a potenciarte. </p>
+            <p>Un Asistente Virtual Inteligente no reemplaza a tu equipo: lo fortalece, lo libera de tareas rutinarias y lo enfoca en lo que verdaderamente hace la diferencia.</p>
+            <p>Si todavía no incorporaste IA en tu negocio, un AVI puede ser el mejor punto de partida. </p>
+            <p>No esperes a que tus competidores tomen la delantera. </p>
+            <p>Invertí en eficiencia, experiencia y escalabilidad.</p>
+            <p class="highlight">📞 ¿Querés saber cómo implementar IA o asistentes virtuales inteligentes en tu empresa sin perder tiempo ni dinero?</p>
+            <p class="call-to-action">Hablemos!</p>
             <p><a href="https://vortia.com.ar" class="btn-link">👉 https://vortia.com.ar</a></p>
           </div>
         </div>

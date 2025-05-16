@@ -14,15 +14,14 @@
             </div>
 
             <!-- Text -->
-            <h2 class="s-56 w-700 color--dark">Page Not Found</h2>
+            <h2 class="s-56 w-700 color--dark">Error.</h2>
             <h6 class="s-22 color--grey">
-              Oops! The page you are looking for might have been moved, renamed
-              or might never existed
+              En este momento nos encontramos realizando tareas de mantenimiento. En breve podrás seguir conociendo más de VORTIA.
             </h6>
 
             <!-- Button -->
             <a href="/" class="btn btn--theme hover--theme"
-            @click="handleError" >Back to home</a
+            @click="handleError" >Inicio</a
             >
           </div>
         </div>

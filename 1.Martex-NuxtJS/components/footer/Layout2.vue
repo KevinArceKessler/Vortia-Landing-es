@@ -17,16 +17,16 @@
                         <!-- Links -->
                         <ul class="foo-links clearfix">
                             <li>
-                                <p><a href="#" @click.prevent="scrollToSection('section5')">Solutions</a></p>
+                                <p><a href="#" @click.prevent="scrollToSection('section5')">Soluciones</a></p>
                             </li>
                             <li>
-                                <p><NuxtLink to="/sobrenosotros">About Us</NuxtLink></p>
+                                <p><NuxtLink to="/sobrenosotros">Sobre nosotros</NuxtLink></p>
                             </li>
                             <li>
                                 <p><NuxtLink to="/blog">Blog</NuxtLink></p>
                             </li>
                             <li>
-                                <p><a href="#" @click.prevent="scrollToSection('section16')">Contact</a></p>
+                                <p><a href="#" @click.prevent="scrollToSection('section16')">Contacto</a></p>
                             </li>
                         </ul>
                     </div>
@@ -35,14 +35,14 @@
                 <div class="col-6 col-md-3 col-xl-4">
                     <div class="footer-links fl-3">
                         <!-- Title -->
-                        <h6 class="s-17 w-700">Legal</h6>
+                        <h6 class="s-17 w-700">Legales</h6>
                         <!-- Links -->
                         <ul class="foo-links clearfix">
                             <li>
-                                <p><NuxtLink to="/privacidaddatos">Privacy policy</NuxtLink></p>
+                                <p><NuxtLink to="/privacidaddatos">Política de privacidad</NuxtLink></p>
                             </li>
                             <li>
-                                <p><NuxtLink to="/terminoscondiciones">Terms and Conditions</NuxtLink></p>
+                                <p><NuxtLink to="/terminoscondiciones">Terminos y condiciones</NuxtLink></p>
                             </li>
                             <li>
                                 <p><NuxtLink to="/legales">Legal Notice</NuxtLink></p>

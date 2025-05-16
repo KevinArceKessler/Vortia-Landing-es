@@ -17,10 +17,10 @@
             <div class="hero-content">
               <!-- Title -->
               <h1 class="s-50 w-700 title-animated" style="margin-bottom: 13px; color: #000000;">
-                Your customers don't wait. Vortia always responds
+                Automatización omnicanal para tu empresa. 
               </h1>
               <!-- Text --> 
-              <h6 class="p-lg subtitle-animated" style="color: #0f0f0f">Natural language. Accurate Answers. Sales That Scale.</h6>
+              <h6 class="p-lg subtitle-animated" style="color: #0f0f0f">Implementá IA y tene a tu mejor vendedor siempre activo.</h6>
               <!-- Botón Agenda Tu Demo -->
               <a 
                 class="btn-demo button-animated" 
@@ -29,7 +29,7 @@
                 href="https://wa.me/15557245821?text=Me%20gustar%C3%ADa%20agendar%20una%20reuni%C3%B3n%20para%20saber%20m%C3%A1s%20sobre%20Vortia" 
                 target="_blank"
               >
-              SCHEDULE YOUR DEMO
+              ¡Agendá tu demo gratis!
               </a>
             </div>
           </div>
